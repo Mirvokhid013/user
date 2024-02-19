@@ -11,6 +11,8 @@ let elInput = document.createElement("input");
 let btn = document.createElement("button");
 let value = document.createElement("h1");
 
+elInput.placeholder = 'Ismingizni kiriting: '
+
 btn.textContent = 'Submit'
 
 elForm.append(elInput, btn);
