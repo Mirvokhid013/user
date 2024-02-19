@@ -19,7 +19,7 @@ elForm.append(elInput, btn);
 
 root.append(elForm, value);
 
-value.style.fontSize = '200px'
+value.classList.add("fs-1")
 
 elForm.addEventListener("submit", (evt)=> {
     evt.preventDefault();
